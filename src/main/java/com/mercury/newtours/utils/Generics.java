@@ -1,17 +1,14 @@
 package com.mercury.newtours.utils;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
-import org.openqa.selenium.*;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.TestException;
 
 public class Generics {   
             public static WebDriver driver;

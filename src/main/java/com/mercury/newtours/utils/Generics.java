@@ -17,8 +17,7 @@ public class Generics {
             {
             	System.setProperty("webdriver.chrome.driver","C:\\SeleniumDrivers\\chromedriver.exe");
             	driver = new ChromeDriver();
-            	driver.get("http://demo.guru99.com/test/newtours/");
-        	//	driver.get("http://newtours.demoaut.com/");
+        		driver.get("http://newtours.demoaut.com/");
         		driver.manage().window().maximize();
         		return driver;
             }
